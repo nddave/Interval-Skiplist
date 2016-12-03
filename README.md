@@ -51,7 +51,7 @@ Since, the nodes are merged, the next excluded function works in O(1) time, inst
 
 # Getting started
 
-[Interval Skiplist]() is quick and easy to setup. You do not need any additional libraries than the ones built into Python3. So, download the Interval-Skiplist.zip file, change directory to the Interval Skiplist folder and run it with the following command:
+[Interval Skiplist](https://github.com/nddave/Interval-Skiplist/blob/master/skiplist.py) is quick and easy to setup. You do not need any additional libraries than the ones built into Python3. So, download the Interval-Skiplist.zip file, change directory to the Interval Skiplist folder and run it with the following command:
 
 ```python
 python3 skiplist.py
