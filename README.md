@@ -59,12 +59,23 @@ python3 skiplist.py
 
 It will automatically add values, defined in the main method, to the skiplist. Feel free to edit the main method. And it will also give an output with next excluded at each step. Below is an example of the output for adding values to the skiplist.
 
-Input
+*Input:*
 ```python
 ints = [2, 1, 4, 6, 8, 3, 9, 10, 5, 7]
 ```
 
-Output
+*Process:*
+```python
+s = SkipList()
+for i in ints:
+  print("===ADDING %d ===" % i)
+  s.add(i)
+  print(s)
+  for j in range(0, 12):
+    print("next_excluded(%d) = %d" % (j, s.next_excluded(j)))
+```
+
+*Output:*
 ```python
 ===ADDING 2 ===
 <2; 2; 2>
