@@ -57,8 +57,14 @@ Since, the nodes are merged, the next excluded function works in O(1) time, inst
 python3 skiplist.py
 ```
 
-It will automatically add values, defined in the main method, to the skiplist. Feel free to edit the main method. And it will also give an output with next excluded at each step. Below is an example of the output for adding [2, 1, 4, 6, 8, 3, 9, 10, 5, 7] in that order.
+It will automatically add values, defined in the main method, to the skiplist. Feel free to edit the main method. And it will also give an output with next excluded at each step. Below is an example of the output for adding values to the skiplist.
 
+Input
+```python
+ints = [2, 1, 4, 6, 8, 3, 9, 10, 5, 7]
+```
+
+Output
 ```python
 ===ADDING 2 ===
 <2; 2; 2>
